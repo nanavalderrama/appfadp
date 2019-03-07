@@ -1,0 +1,39 @@
+html,body{
+	height:100%;
+}
+header{
+	background: url(foto1.jpg);
+	background-size:cover;
+
+	padding:5em 5em 5em 5em;
+}
+.centrar{
+	text-align:center;
+}
+
+
+.contenido{
+	background:rgba(225,225,225,0.4); 
+    padding: 2em;
+}
+
+.fondo{
+	background: url("foto2.jpg") center center no-repeat;
+	background-size:cover;
+
+}
+
+.menu{
+	list-style: none;
+	display:flex;
+	justify-content:space-around;
+	margin: 0 auto;
+	width:60%;
+
+}
+
+.menu li a{
+	color:#fff;
+	font.size:1.6em;
+	text-transform:capitalize;
+}
